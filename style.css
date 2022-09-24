@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    height: 50px;
+}
+.lefticon{
+    display: flex;
+    flex: 0.5;
+    align-items: center;
+    padding-left: 5px;
+}
+#homeicon{
+    padding-left: 10px;
+}
+.searchtap{
+    flex: 2;
+    padding-top: 8px;
+    text-align: center;
+    
+}
+.search{
+    width: 500px;
+    height: 30px;
+    border-radius: 15px;
+}
+.search:hover,.search:active{width:550px;
+height: 32px;}
+
+.righticons{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+.fa-sharp,.fa-solid{
+    font-size:30px;
+}
+.svgprofile{
+    display: flex;
+    flex: 0.3;
+    align-items: center;
+}
+.para1{
+    padding-left: 3px;
+}
+.SVGBadge-number {
+      fill: rgb(248, 244, 244);
+      font-family: sans-serif;
+      font-size: 12px;
+      letter-spacing: -1px;
+    }
+   
+    /******* Section1 Style *********/
+
+
+.section1{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+.img{
+    width: 400px;
+    height: 200px;
+}
+.overviewsection{
+    display: flex;
+}
+
+/******** Sidebar Style *********/
+
+
+.sidebar{
+    height: 100%;
+    background-color: rgb(51, 49, 49);
+    
+}
+.footer{
+    height:650px;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px; 
+}
+a{
+    margin-left: 30px;
+}
+.transition {
+    width: 0;
+    height: 40px;
+    background: orange;
+    transition: width 0.5s;
+  }
+  
+  .transition:hover,.transition:active {
+    width: 150px;
+  }
+  .home{
+    width: 150px;
+    height: 40px;
+    background: orange;
+    transition: width 0.5s;
+  }
+
+  /******** HotelInfo bar Style *******/
+
+
+  .hotelinfo{
+    display: flex;
+    align-items: center;
+  }
+  .hotelname{
+    flex: 4;
+  }
+  .hoteldata{
+    flex: 0.5;
+  }
+  .hotelrating{
+    flex: 0.3;
+    background-color: orange;
+  }
+
+  /******** HotelData Section Style *******/
+
+
+.hoteldatasection{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(218, 210, 210) ;
+    height: 100vh;
+
+}
+.hoteldatasection .description{
+    display: flex;
+    padding: 30px 0 40px 0 ;
+}
+.descriptionright{
+    padding-left: 20px;
+}
+.rightlowerpart {
+    display: flex;
+    padding-top: 30px;
+  }
+ .leftpart{
+    padding: 20px;
+    width: 400px;
+    background-color: white ;
+    margin: 20px;
+}
+
+/******* Center Part ********/
+
+ .centerpart{
+    width: 250px;
+}
+.centerpart .centerlower{
+    margin-top: 30px;
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+
+}
+.centerupper{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+ .rightpart{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    justify-content: center;
+}
+
+.overlap-images {
+    height: fit-content;
+    padding-top: 3rem;
+  }
+  
+  #icons-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+  }
+  
+  .icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-right: -15px;
+  }
+ 
+  .profile1{
+    display: flex;
+    /* width: 100%;
+    height: 100%; */
+  }
+
+  .profile1info{
+    padding-left: 20px;
+    display: flex;
+  }
+
+  /********* Right part ********/
+
+  .btn {
+    height:50px;
+   border-radius: 15px;
+   background-color: orange;
+  }
+
+  .btn:hover, .btn:active {
+   width: 160px;
+   height: 60px
+  }
+  
+
+  
+  
+
+
+
